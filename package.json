@@ -1,0 +1,16 @@
+{
+  "name": "react-native-action-sheet-hook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Ray Deck",
+  "repository": {
+    "git": "https://github.com/rhdeck/react-native-action-sheet-hook"
+  },
+  "dependencies": {
+    "@expo/react-native-action-sheet": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
