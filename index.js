@@ -6,9 +6,9 @@ import {
 const context = createContext();
 const Provider = context.Provider;
 const ASHookProvider = connectActionSheet(
-  ({ children, showActionSheetWithOptions }) => {
-    <Provider value={showActionSheetWithOptions}>{children}</Provider>;
-  }
+  ({ children, showActionSheetWithOptions }) => (
+    <Provider value={showActionSheetWithOptions}>{children}</Provider>
+  )
 );
 const TopProvider = props => (
   <ActionSheetProvider>
